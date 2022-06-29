@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right top, #22a13a, #1aa74a, #12ac59, #09b268, #03b776);
+    background-repeat: no-repeat;
+}
+
+#containerMain{
+    background-image: linear-gradient(to bottom, #f7f7f7, #f4f4f4, #f1f1f1, #eeeeee, #ebebeb);
+    box-shadow: 3px 3px 3px 3px black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#section1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
