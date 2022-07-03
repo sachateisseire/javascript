@@ -20,4 +20,17 @@ body{
 #div1{
     border-right: 1px solid lightgrey;
 }
-
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#035519, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#035519, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
