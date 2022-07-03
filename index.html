@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba JavaScript</title>
+    <title>JavaScript Coderhouse - Teisseire</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
@@ -12,64 +12,58 @@
 <body>
 
     <main id="containerMain" class="container my-5">
-
         <h1>JavaScript Coderhouse</h1>
 
         <section id="section1" class="container my-5">
-
-
-            <h2 id="titulo">Cotizador de cursos</h2>
-        
+            <h3 id="titulo">Módulo cotizador de cursos</h3>
             <hr>
-    
-            <p>Ingresa la información requerida para conocer el monto final y el modo de financiamiento del curso que deseas adquirir.</p>
-    
-
-            <form class="my-3" id="miFormulario">
-            <div class="row my-3" style="justify-content: center;">
-
-
-                <div class="col-sm-5">
-
-                
-                        <input type="text" id="inputNombreCurso" placeholder="Ingrese el nombre del curso" class="form-control my-3">
-                        <input type="number" id="inputValorCurso" placeholder="Ingrese el valor del curso" class="form-control my-3">
-                        <input type="number" id="inputDescuento" placeholder="Ingrese el porcentaje del descuento" class="form-control my-3">
-                        <input type="number" id="inputCuotas" placeholder="Ingrese cantidad de cuotas" class="form-control my-3">
-                    
-                        <button type="submit" id="btn-enviar" type="submit" class="btn btn-primary">Enviar</button>
-
-                </div>
-                <div class="col-sm-5 my-3">
-                    <p id="htmlRespuesta1">
-                    </p> <br>
-
-
-                    <p id="htmlRespuesta2">
-                    </p> <br>
-
-                </div>
-
+                <p>Ingresa la información requerida para conocer el monto final y el modo de financiamiento del curso que deseas adquirir.</p>
+                <form class="my-3" id="miFormulario">
+                    <div class="row my-3" style="justify-content: center;">
+                        <div class="col-sm-5" id="div1">
+                            <input type="text" id="inputNombreCurso" placeholder="Ingrese el nombre del curso" class="form-control my-3">
+                            <input type="number" id="inputValorCurso" placeholder="Ingrese el valor del curso" class="form-control my-3">
+                            <input type="number" id="inputDescuento" placeholder="Ingrese el porcentaje del descuento" class="form-control my-3">
+                            <input type="number" id="inputCuotas" placeholder="Ingrese cantidad de cuotas" class="form-control my-3">
+                            <button type="submit" id="btn-enviar" class="btn btn-primary">Cotizar</button>
+                        </div>
+                        <div class="col-sm-5 my-3">
+                        <p id="htmlRespuesta1">
+                        </p> <br>
+                        <p id="htmlRespuesta2">
+                        </p> <br>
+                        </div>
+                    </div>
                 </form>
+            </section>
 
-
-              </div>
-
-
-
+        <section id="section1" class="container my-5">
+            <h3 id="titulo">Módulo agregar curso</h3>
+            <hr>
+                <p>En este módulo podrás guardar un curso en Local Storage.</p>
+                <form class="my-3" id="miFormulario2">
+                    <div  class="row my-3" style="justify-content: center;">
+                        <div class="col-sm-5" id="div1">
+                            <input type="text" id="inputNombreCurso2" placeholder="Ingrese el nombre del curso" class="form-control my-3">
+                            <input type="number" id="inputValorCurso2" placeholder="Ingrese el valor del curso" class="form-control my-3">
+                            <input type="text" id="inputDescripcionCurso2" placeholder="Ingrese la descripción del curso" class="form-control my-3">
+                            <button type="submit" id="btn-enviar2" type="submit" class="btn btn-primary">Agregar</button>
+                        </div>
+                        <div class="col-sm-5 my-3">
+                        <p id="htmlRespuesta3">
+                        </p> <br>
+                        <p id="htmlRespuesta2">
+                        </p> <br>
+                        </div>
+                    </div>
+                </form>
         </section>
 
-
-
-
     </main>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 
-
-    
 </body>
 
 </html>
