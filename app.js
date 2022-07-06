@@ -24,6 +24,8 @@ miFormulario.addEventListener('submit', (event) => {
     const respuesta2 = document.getElementById('htmlRespuesta2')
         respuesta1.innerText = 'Por el curso de ' + inputNombre.value + ' usted abonará un total de: $' + (funcionBeca(inputValor.value, inputDescuento.value))
         respuesta2.innerText = 'Financiado en ' + inputCuotas.value + ' cuotas mensuales de $' + (funcionCuotas(inputValor.value, inputDescuento.value, inputCuotas.value) + ' cada una.')
+
+        Swal.fire({icon: 'success', title: 'El curso ' + inputNombre.value + ' fue correctamente cotizado'})
 })
 
 
@@ -50,54 +52,8 @@ miFormulario2.addEventListener('submit', (event) => {
     const respuesta3 = document.getElementById('htmlRespuesta3')
         respuesta3.innerText = 'Usted acaba de guardar en Local Storage el curso: ' + productoCurso.nombre + ' por un valor de $' + productoCurso.valor + ' y cuya descripción es "' + productoCurso.descripcion + '"'
 
-    alert('El curso ' + inputNombre2.value + ' ha sido guardado satisfactoriamente como Objeto bajo los siguientes parámetros: ' + enJSON)
+    Swal.fire({icon: 'success', title: 'El curso ' + inputNombre2.value + ' ha sido guardado satisfactoriamente', footer: 'Parámetros del Objeto: ' + enJSON})
 })
-
-///
-
-
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-// const miFormulario3 = document.querySelector('#miFormulario3')
-
-// const inputNombre3 = document.querySelector('#inputNombreCurso3')
-
-
-// const btnEnviar3 = document.querySelector('#btn-enviar3')
-
-
-// miFormulario3.addEventListener('submit', (event) => {
-
-//     event.preventDefault()
-
-//     function buscadorCursos (nombreCurso) {
-
-//     if(nombreCurso == listadoCursos.nombre.value){
-//         return(alert('Bien'))
-//     } else {
-//         return(alert('Mal'))
-//     }
-// }
-
-// const respuesta4 = document.getElementById('htmlRespuesta4')
-
-// respuesta4.innerText = 'El curso' + buscadorCursos(inputNombre3)
-
-// })
-
-
-
 
 
 

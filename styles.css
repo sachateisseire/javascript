@@ -34,3 +34,12 @@ h3{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#info{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#info-p{
+
+}
