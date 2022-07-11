@@ -1,4 +1,4 @@
-// 
+
 
 // *** MÓDULO COTIZADOR DE CURSOS *** //
 
@@ -56,5 +56,17 @@ miFormulario2.addEventListener('submit', (event) => {
 })
 
 
+const productosContainer = document.querySelector('#cursoProductoContainer')
+
+const item = stockCursos[0]
+
+const div = document.createElement('div')
+div.classList.add('cursoProducto')
+
+div.innerHTML = '<img src="" class="img-responsive" alt="" style="width:80%"><h3>${item.curso}</h3><p>${item.descripcion}</p><p>${item.valor}</p><p>Agregar</p>'
+
+
+console.log(div)
+productosContainer.append(div)
 
 
