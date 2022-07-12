@@ -56,17 +56,22 @@ miFormulario2.addEventListener('submit', (event) => {
 })
 
 
+// *** MÓDULO E-COMMERCE *** //
+
 const productosContainer = document.querySelector('#cursoProductoContainer')
 
-const item = stockCursos[0]
+stockCursos.forEach ((item) => {
 
 const div = document.createElement('div')
-div.classList.add('cursoProducto')
+div.className = `text-center m-5 col-sm-3 my-3`
 
-div.innerHTML = '<img src="" class="img-responsive" alt="" style="width:80%"><h3>${item.curso}</h3><p>${item.descripcion}</p><p>${item.valor}</p><p>Agregar</p>'
+div.innerHTML = `
+                 <img src="${item.img}" class="img-thumbnail" alt="" style="width:80%">
+                 <h3>${item.curso}</h3>
+                 <p>${item.descripcion}</p>
+                 <p>Precio: $${item.valor}</p>
+                 <button class="btn btn-danger">Comprar</button>`    
 
-
-console.log(div)
 productosContainer.append(div)
 
-
+})
