@@ -8,7 +8,7 @@ let stockCursos = [
     {id: 7, curso: 'SQL', valor: 20000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
     {id: 8, curso: 'Angular', valor: 25000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
     {id: 9, curso: 'Excel', valor: 15000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
-    {id: 10, curso: 'Power BI', valor: 20000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
-    {id: 11, curso: 'Solidity', valor: 20000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
+    {id: 10, curso: 'Power BI', valor: 17000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
+    {id: 11, curso: 'Solidity', valor: 25000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
     {id: 12, curso: 'Bootstrap', valor: 20000, descripcion: 'Este curso te permite incorporar muchas funcionalidades', img: '/images/wallhaven-rdx51q.jpg'},
 ]
